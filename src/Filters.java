@@ -25,9 +25,9 @@ public class Filters {
 
 	public void blues() {
 		System.out.println("blues");
-		for (int x = 0; x < image.getWidth(); x++) 
+		for (int x = 0; x < image.getWidth(); x++)
 		{
-			for (int y = 0; y < image.getHeight(); y++) 
+			for (int y = 0; y < image.getHeight(); y++)
 			{
 				Color color = new Color(image.getRGB(x, y)); // Grabs the color of the pixel at x,y
 				color = new Color(0, 0, 0);
@@ -37,7 +37,7 @@ public class Filters {
 		img = new ImageIcon(image); // makes image equal to the new edited version
 	}
 
-	public void darken() 
+	public void darken()
 	{
 		System.out.println("Darken");
 	}
@@ -48,12 +48,12 @@ public class Filters {
 
 	}
 
-	public void blackAndWhite() 
+	public void blackAndWhite()
 	{
-		System.out.println("Balck and White");
+		System.out.println("Black and White");
 	}
 
-	public void sepia() 
+	public void sepia()
 	{
 		System.out.println("Sepia Tone");
 	}
@@ -63,12 +63,12 @@ public class Filters {
 		System.out.println("Sketch");
 	}
 
-	public void negative() 
+	public void negative()
 	{
 		System.out.println("Negative");
 	}
 
-	public void custom() 
+	public void custom()
 	{
 		System.out.println("Custom");
 	}
